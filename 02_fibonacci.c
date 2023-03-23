@@ -1,22 +1,15 @@
-/*
-  Name- Amit Prasad
-  Date- //
-  Description -
-  Sample Input-
-  Sample  Output-
-  Doc
-*/
-
+//Don't copy the code... Study the logic
+//Fibonacci seies
 
 #include <stdio.h>
 
 int main()
 {
-    int num,i,temp=0,a=0,b=1,count=0;
+    int num,i,temp=0,a=0,b=1,count=0;					//initializing variables
     printf("Enter a number \n");
-    scanf("%d",&num);
+    scanf("%d",&num);							//scanning input from user
 
-    for(i=0;i<=num;i++)
+    for(i=0;i<=num;i++)							//logic for fibonacci
     {
 	    a=b;
 	    b=temp;
